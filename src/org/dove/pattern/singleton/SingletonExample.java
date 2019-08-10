@@ -11,7 +11,7 @@ public class SingletonExample {
 		}
 	}
 	
-	public SingletonExample getInstance() {
+	public static SingletonExample getInstance() {
 		if (instance == null) {
 			synchronized (SingletonExample.class) {
 				if (instance == null) {

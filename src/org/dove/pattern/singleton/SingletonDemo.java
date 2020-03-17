@@ -11,7 +11,7 @@ public class SingletonDemo {
 		SingletonExample secondSingleton = SingletonExample.getInstance();
 		
 		System.out.println(secondSingleton);
-
+		
 	}
 
 }
